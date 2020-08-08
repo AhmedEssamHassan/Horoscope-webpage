@@ -44,7 +44,23 @@
 }
 
 .top-item .cart-co {
-  margin: auto
+  margin: auto;
+}
+/* for cart notifications */
+.top-item .noti {
+  background-color: #f77979;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -25px;
+  top: -15px;
+  width: 19px;
+  height: 19px;
+  color: white;
+  border-radius: 50%;
+  border: 1.5px white solid;
+  padding-top: 3px;
 }
 
 .top-item input {

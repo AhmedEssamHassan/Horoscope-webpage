@@ -47,6 +47,16 @@
   }
 }
 
+@media only screen and (max-width: 768px){
+  .top-item .noti {
+    left: -110px;
+    top:-12px;
+  }
+  .top-item i {
+    font-size: 29px;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .cart-co {
     padding: 0 30px;
@@ -59,7 +69,15 @@
   .top {
     padding: 0;
   }
+  .top-item .noti {
+    left: -40px;
+    top:-12px;
+  }
+  .top-item i {
+    font-size: 29px;
+  }
 }
+
 @media only screen and (max-width: 375px) {
   .cart-co {
     padding: 0 20px;
