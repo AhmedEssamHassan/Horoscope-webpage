@@ -1,0 +1,63 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* start top nav-info */
+.top-nav {
+  background-color: #170135;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.top-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.top-right {
+  display: grid;
+  grid-template-columns: 1fr 15% 1fr;
+}
+
+.top-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-left: white 1px solid;
+}
+
+.top-item i {
+  margin: 0 10px 0 20px;
+  font-size: 25px;
+}
+.top-item p {
+  margin: 0;
+}
+
+.top-item .cart-co {
+  margin: auto
+}
+
+.top-item input {
+  width: 80%;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.top-item input::placeholder {
+  color: white;
+}
+
+/* end top nav-info */
